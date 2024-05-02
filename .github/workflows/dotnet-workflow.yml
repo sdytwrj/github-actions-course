@@ -13,6 +13,8 @@ jobs:
         working-directory: github-actions-course/03-app-dotnet
     steps:
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
