@@ -4,7 +4,7 @@ on:
     inputs:
       name:
         description: 'Person to greet'
-        default: 'Place'
+        default: 'World'
         required: true
 jobs:
   greet:
