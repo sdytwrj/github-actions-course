@@ -1,0 +1,3 @@
+[submodule "github-actions-course"]
+	path = github-actions-course
+	url = https://github.com/HoussemDellai/github-actions-course.git
