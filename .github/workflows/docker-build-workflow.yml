@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-      submodules: recursive
+        submodules: recursive
     - name: Build the Docker image
       working-directory: github-actions-course/03-app-dotnet
       run: docker build . --file Dockerfile --tag my-app-dotnet:$(date +%s)
