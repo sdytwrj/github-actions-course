@@ -1,7 +1,4 @@
-name: main-blank-workflow
-- name: cspell-action
-  uses: streetsidesoftware/cspell-action@v6.3.0
-            
+name: main-blank-workflow           
 on: 
   push:
     branches: none
